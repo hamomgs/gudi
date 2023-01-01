@@ -4,12 +4,12 @@ export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 4.3vw;
 `
 
 export const LogoContainer = styled.figure`
-  height: 28px;
-  margin-left: 50px;
+  height: 2.2vw;
+  margin-left: 4.88vw;
 
   img {
     height: 100%;
@@ -19,7 +19,7 @@ export const LogoContainer = styled.figure`
 export const Container = styled.div`
   display: flex;
   gap: 66px;
-  margin-right: 40px;
+  margin-right: 3.9vw;
 `
 
 export const NavItems = styled.ul`
@@ -31,19 +31,19 @@ export const NavItems = styled.ul`
 
 export const NavItem = styled.li`
   color: #005bd5;
-  font-size: 1.4rem;
+  font-size: 1.2vw;
   font-family: 'Argentum Regular';
   cursor: pointer;
 `
 
 export const Button = styled.button`
-  width: 120px;
-  height: 30px;
-  border-radius: 15px;
+  width: 11.7vw;
+  height: 2.9vw;
+  border-radius: 1.4vw;
   border: none;
   color: #fff;
   letter-spacing: 3px;
-  font-size: 1.1rem;
+  font-size: 1.07vw;
   font-family: 'Argentum Bold';
   cursor: pointer;
   background-color: #005bd5;

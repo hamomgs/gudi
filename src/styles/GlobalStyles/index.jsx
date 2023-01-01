@@ -32,9 +32,9 @@ export default createGlobalStyle`
     src: url(${boldFont});
   }
 
-  :root {
+  /* :root {
     font-size: 62.5%;
-  }
+  } */
 
   * {
     margin: 0;
