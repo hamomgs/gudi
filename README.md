@@ -17,20 +17,26 @@
 Desafio de um site de viagens nacionais feito para processo seletivo do [Vai na Web](https://vainaweb.com.br). 
 Você pode ver a demo do projeto clicando [aqui](https://gudi-hamomgs.vercel.app/).
 
+## 🎨 Layout
+
+Veja o modelo de design do site clicando [aqui](https://xd.adobe.com/view/7685b23a-03a3-4d0c-a563-0855e94e046b-23d6).
+
 <!-- ### Mobile
 
-<img src="" alt="mobile version" width="300px" />
+<img src="" alt="mobile version" width="300px" /> -->
 
 ### Web
 
-<img src="" alt="web version" width="800px" /> -->
+<img src="https://user-images.githubusercontent.com/88857655/210284124-95a83ec6-59dc-456e-acb1-592e9cdeb151.png" alt="web version" width="800px" /> 
 
 ## ✅ Checklist
 
-- [ ] Header
-- [ ] Main
-- [ ] Fale conosco
+- [X] Header
+- [X] Cards de viagem
+- [X] Mural de experiências 
+- [X] Fale conosco
 - [ ] Footer
+- [ ] Responsivo (mobile)
 
 ## 🚀 Como executar o projeto
 
@@ -61,6 +67,6 @@ $ npm start
 
 ## 📝 Licença
 
-Este projeto está sobre a licença [MIT](https://github.com/hamomgs/portfolio/blob/main/LICENCE).
+Este projeto está sobe a licença [MIT](https://github.com/hamomgs/portfolio/blob/main/LICENCE).
 
 Feito com ❤ por Hamom Silva 👋🏽 [Entre em contato!](Https://www.linkedin.com/in/hamomgs/)
