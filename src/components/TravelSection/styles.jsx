@@ -11,7 +11,7 @@ export const AboutBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 49.8vw;
+  width: 49.7vw;
   height: 31.5vw;
   color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
   
@@ -88,7 +88,7 @@ export const Picture = styled.div`
   background: ${({ img }) => `url(${img})`} no-repeat;
   background-size: 100%;
   background-position: center;
-  width: 49.8vw;
+  width: 49.7vw;
   height: 31.5vw;
 `
 
@@ -103,7 +103,7 @@ export const StateBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24.9vw;
+  width: 24.85vw;
   height: 19.72vw;
 `
 

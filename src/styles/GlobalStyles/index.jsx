@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import blackFont from '../../assets/fonts/ArgentumSans-Black.ttf'
 import lightFont from '../../assets/fonts/ArgentumSans-Light.ttf'
 import regularFont from '../../assets/fonts/ArgentumSans-Regular.ttf'
+import mediumFont from '../../assets/fonts/ArgentumSans-Medium.ttf'
 import boldFont from '../../assets/fonts/ArgentumSans-Bold.ttf'
 
 
@@ -19,6 +20,11 @@ export default createGlobalStyle`
   @font-face {
     font-family: 'Argentum Regular';
     src: url(${regularFont});
+  }
+
+  @font-face {
+    font-family: 'Argentum Medium';
+    src: url(${mediumFont});
   }
 
   @font-face {
@@ -43,7 +49,7 @@ export default createGlobalStyle`
     background-color: #fff;
   }
   ::-webkit-scrollbar {
-    width: 6px;
+    width: 0.6vw;
   }
   ::-webkit-scrollbar-thumb {
     background-color: #005bd5;
