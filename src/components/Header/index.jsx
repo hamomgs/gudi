@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import * as S from './styles.jsx'
 import logo from '../../assets/img/logo.png'
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
     <S.Header>
+      <S.OutsideClose isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}></S.OutsideClose>
       <S.LogoContainer>
         <img src={logo} alt='logo' />
       </S.LogoContainer>
 
-      <S.Container>
+      <S.HamburgerMenu onClick={() => setIsOpen(!isOpen)} />
+      <S.Container isOpen={isOpen}>
+        <S.Close onClick={() => setIsOpen(!isOpen)} />
         <nav>
           <S.NavItems>
             <S.NavItem>Sobre</S.NavItem>

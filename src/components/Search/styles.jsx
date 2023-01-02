@@ -4,10 +4,10 @@ import banner from '../../assets/img/combe-amarela.png'
 export const SearchSection = styled.div`
   background-image: url(${banner});
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: 100%;
   width: 100%;
-  height: 36.20vw;
+  height: 36vw;
   padding-left: 4.88vw;
 `
 
@@ -15,9 +15,9 @@ export const Title = styled.h1`
   max-width: 29.7vw;
   padding-top: 7.6vw;
   font-size: 3.4vw;
-  font-family: 'Argentum Bold';
+  font-weight: 700;
   color: #005bd5;
-  margin-bottom: 1.36vw;
+  padding-bottom: 1.36vw;
 `
 
 export const Form = styled.form`
@@ -31,7 +31,7 @@ export const Input = styled.input`
   border-radius: 1.95vw;
   border: solid 3px transparent;
   padding: 0.87vw 1.95vw;
-  font-family: 'Argentum Light';
+  font-weight: 400;
   font-size: 0.97vw;
   transition: 0.2s ease-in-out;
 
@@ -46,7 +46,7 @@ export const Button = styled.button`
   border: solid 2px transparent;
   border-radius: 1.4vw;
   color: #fff;
-  font-family: 'Argentum Bold';
+  font-weight: 700;
   letter-spacing: 3px;
   font-size: 0.97vw;
   text-transform: uppercase;

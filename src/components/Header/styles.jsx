@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { IoClose } from 'react-icons/io5'
 
 export const Header = styled.header`
   display: flex;
@@ -7,9 +9,22 @@ export const Header = styled.header`
   height: 4.3vw;
 `
 
+export const OutsideClose = styled.div`
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  @media (max-width: 900px) {
+    display: ${({ isOpen }) => isOpen ? 'initial' : 'none'};
+  }
+`
+
 export const LogoContainer = styled.figure`
   height: 2.25vw;
-  margin-left: 4.88vw;
+  padding-left: 4.88vw;
 
   img {
     height: 100%;
@@ -19,7 +34,21 @@ export const LogoContainer = styled.figure`
 export const Container = styled.div`
   display: flex;
   gap: 6.4vw;
-  margin-right: 3.9vw;
+  padding-right: 3.9vw;
+  transition: 0.4s ease-in-out;
+
+  @media (max-width: 900px) {
+    position: fixed;
+    top: 0;
+    right: ${({ isOpen }) => isOpen ? '0vw' : '-30vw'};
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 100vh;
+    padding: 90px 0 0 0;
+    background-color: #fff;
+  }
 `
 
 export const NavItems = styled.ul`
@@ -27,24 +56,30 @@ export const NavItems = styled.ul`
   align-items: center;
   gap: 3.5vw;
   height: 100%;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `
 
 export const NavItem = styled.li`
-  color: #005bd5;
-  font-size: 1.02vw;
-  font-family: 'Argentum Regular';
-  cursor: pointer;
-
   background: linear-gradient(0deg, #005bd5, #005bd5) no-repeat;
   background-position: right bottom;
   background-size: 0 2px;
-  transition: background-size 350ms;
-
   padding-bottom: 2px;
+  color: #005bd5;
+  font-size: 1.02vw;
+  cursor: pointer;
+  transition: background-size 0.35s;
+  
   
   &:where(:hover, :focus-visible) {
     background-size: 100% 2px;
     background-position-x: left;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 2vw;
   }
 `
 
@@ -56,7 +91,7 @@ export const Button = styled.button`
   color: #fff;
   letter-spacing: 3px;
   font-size: 1vw;
-  font-family: 'Argentum Bold';
+  font-weight: 700;
   cursor: pointer;
   background-color: #005bd5;
   transition: 0.3s ease-in-out;
@@ -65,5 +100,36 @@ export const Button = styled.button`
     color: #005bd5;
     border-color: #005bd5;
     background-color: transparent;
+  }
+
+  @media (max-width: 900px) {
+    width: 15vw;
+    height: 3.8vw;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+  }
+`
+
+export const HamburgerMenu = styled(GiHamburgerMenu)`
+  display: none;
+  color: #005db5;
+  margin-right: 3.9vw;
+  font-size: 2.6vw;
+
+  @media (max-width: 900px) {
+    display: initial;
+  }
+`
+
+export const Close = styled(IoClose)`
+  position: absolute;
+  top: 3px;
+  right: 3.4vw;
+  display: none;
+  color: #005db5;
+  font-size: 3.5vw;
+
+  @media (max-width: 900px) {
+    display: initial;
   }
 `

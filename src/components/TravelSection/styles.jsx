@@ -23,6 +23,11 @@ export const AboutBox = styled.div`
     color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
     border: solid 1px;
     border-color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+
+    &:hover {
+      color: ${({ isWhite }) => isWhite ? '#fff' : '#005bd5'};
+      background-color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+    }
   }
 `
 
@@ -75,6 +80,7 @@ export const Button = styled.button`
   font-size: 1vw;
   cursor: pointer;
   text-transform: uppercase;
+  transition: 0.3s ease;
   background-color: transparent;
 `
 
@@ -84,4 +90,39 @@ export const Picture = styled.div`
   background-position: center;
   width: 49.8vw;
   height: 31.5vw;
+`
+
+export const StatesContainer = styled.div`
+  display: flex;
+`
+
+export const StateBox = styled.div`
+  background: ${({ img }) => `url(${img})`} no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24.9vw;
+  height: 19.72vw;
+`
+
+export const StateBtn = styled.button`
+  width: 15.03vw;
+  height: 2.83vw;
+  border: solid 1px #fff;
+  border-radius: 1.4vw;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 0.97vw;
+  text-transform: uppercase;
+  cursor: pointer;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  transition: 0.3s ease;
+  background-color: rgba(18, 29, 18, 0.2);
+
+  &:hover {
+    background-color: rgba(18, 29, 18, 0.8);
+  }
 `
