@@ -57,6 +57,7 @@ $ npm start
 - [JavaScript](https://devdocs.io/javascript/)
 - [React](https://pt-br.reactjs.org/)
 - [Styled-Components](https://styled-components.com)
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ## 📝 Licença
 
