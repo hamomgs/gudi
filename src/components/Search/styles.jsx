@@ -29,16 +29,21 @@ export const Form = styled.form`
 export const Input = styled.input`
   max-width: 25.3vw;
   border-radius: 1.95vw;
-  border: none;
+  border: solid 3px transparent;
   padding: 0.87vw 1.95vw;
   font-family: 'Argentum Light';
   font-size: 0.97vw;
+  transition: 0.2s ease-in-out;
+
+  &:focus {
+    border-color: #005bd5;
+  }
 `
 
 export const Button = styled.button`
   max-width: 10.7vw;
   height: 2.8vw;
-  border: none;
+  border: solid 2px transparent;
   border-radius: 1.4vw;
   color: #fff;
   font-family: 'Argentum Bold';
@@ -47,8 +52,11 @@ export const Button = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   background-color: #005bd5;
+  transition: 0.3s ease-in-out;
 
   &:hover {
-    /* opacity: 0.9; */
+    color: #005bd5;
+    border-color: #005bd5;
+    background-color: #fff;
   }
 `
