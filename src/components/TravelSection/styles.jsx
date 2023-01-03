@@ -7,26 +7,26 @@ export const TravelSection = styled.section`
 `
 
 export const AboutBox = styled.div`
-  background: ${({ isWhite }) => isWhite ? '#fff' : 'linear-gradient(180deg, #005bd5 0%, #002e6b 100%)'};
+  background: ${({ isWhite }) => isWhite ? '#fff' : 'linear-gradient(180deg, var(--blue) 0%, var(--dark-blue) 100%)'};
   display: flex;
   align-items: center;
   justify-content: center;
   width: 49.7vw;
   height: 31.5vw;
-  color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+  color: ${({ isWhite }) => isWhite ? 'var(--blue)' : '#fff'};
   
   span {
-    background-color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+    background-color: ${({ isWhite }) => isWhite ? 'var(--blue)' : '#fff'};
   }
 
   button {
-    color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+    color: ${({ isWhite }) => isWhite ? 'var(--blue)' : '#fff'};
     border: solid 1px;
-    border-color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+    border-color: ${({ isWhite }) => isWhite ? 'var(--blue)' : '#fff'};
 
     &:hover {
-      color: ${({ isWhite }) => isWhite ? '#fff' : '#005bd5'};
-      background-color: ${({ isWhite }) => isWhite ? '#005bd5' : '#fff'};
+      color: ${({ isWhite }) => isWhite ? '#fff' : 'var(--blue)'};
+      background-color: ${({ isWhite }) => isWhite ? 'var(--blue)' : '#fff'};
     }
   }
 `

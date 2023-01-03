@@ -27,28 +27,28 @@ export default function Experiences() {
       </S.PhotosContainer>
 
       <S.CardsContainer>
-        <S.Card bgColor='#eee'>
+        <S.Card bgColor='var(--light-gray)'>
           <S.CardIcon src={route} alt='Icone de rota.' width='5.86vw' />
-          <S.CardDescription color='#005bd5'>
+          <S.CardDescription color='var(--blue)'>
             O melhor do Brasil
           </S.CardDescription>
         </S.Card>
 
-        <S.Card bgColor='#005bd5'>
+        <S.Card bgColor='var(--blue)'>
           <S.CardIcon src={road} alt='Icone de estrada.' width='6.07vw' />
           <S.CardDescription color='#fff'>
             Cidades mais frequentadas
           </S.CardDescription>
         </S.Card>
 
-        <S.Card bgColor='#eee'>
+        <S.Card bgColor='var(--light-gray)'>
           <S.CardIcon src={coconut} alt='Icone de coco verde.' width='4.46vw' />
-          <S.CardDescription color='#005bd5'>
+          <S.CardDescription color='var(--blue)'>
             Pontos turísticos
           </S.CardDescription>
         </S.Card>
 
-        <S.Card bgColor='#005bd5'>
+        <S.Card bgColor='var(--blue)'>
           <S.CardIcon src={menu} alt='Icone de cardamio.' width='5.76vw' />
           <S.CardDescription color='#fff'>
             Restaurantes

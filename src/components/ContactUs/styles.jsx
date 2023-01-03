@@ -8,7 +8,7 @@ export const ContactUsSection = styled.section`
   gap: 1.17vw;
   height: 37.59vw;
   margin-top: 5.66vw;
-  background-color: #005bd5;
+  background-color: var(--blue);
 `
 
 export const Title = styled.h2`
@@ -28,13 +28,13 @@ export const Input = styled.input`
   width: 32.61vw;
   height: 3.02vw;
   padding: 0.97vw 1.36vw;
-  border: solid 2px #005bd5;
+  border: solid 2px var(--blue);
   border-radius: 1.5vw;
   font-family: 'Argentum Light';
   font-size: 1vw;
 
   &::placeholder {
-    color: #afb3b8;
+    color: var(--gray);
   }
 `
 
@@ -44,7 +44,7 @@ export const Textarea = styled.textarea`
   height: 6.64vw;
   padding: 0.97vw 1.36vw;
   resize: none;
-  border: solid 2px #005bd5;
+  border: solid 2px var(--blue);
   border-radius: 1.5vw;
   font-family: 'Argentum Light';
   font-size: 1vw;
@@ -57,11 +57,11 @@ export const Textarea = styled.textarea`
     width: 5px;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: #005bd5;
+    background-color: var(--blue);
   }
 
   &::placeholder {
-    color: #afb3b8;
+    color: var(--gray);
   }
 `
 
@@ -80,7 +80,7 @@ export const SendBtn = styled.button`
   background-color: transparent;
 
   &:hover {
-    color: #005bd5;
+    color: var(--blue);
     background-color: #fff;
   }
 `

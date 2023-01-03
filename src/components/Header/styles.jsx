@@ -63,11 +63,11 @@ export const NavItems = styled.ul`
 `
 
 export const NavItem = styled.li`
-  background: linear-gradient(0deg, #005bd5, #005bd5) no-repeat;
+  background: linear-gradient(0deg, var(--blue), var(--blue)) no-repeat;
   background-position: right bottom;
   background-size: 0 2px;
   padding-bottom: 2px;
-  color: #005bd5;
+  color: var(--blue);
   font-size: 1.02vw;
   cursor: pointer;
   transition: background-size 0.35s;
@@ -93,12 +93,12 @@ export const Button = styled.button`
   font-size: 1vw;
   font-weight: 700;
   cursor: pointer;
-  background-color: #005bd5;
+  background-color: var(--blue);
   transition: 0.3s ease-in-out;
 
   &:hover {
-    color: #005bd5;
-    border-color: #005bd5;
+    color: var(--blue);
+    border-color: var(--blue);
     background-color: transparent;
   }
 
@@ -112,7 +112,7 @@ export const Button = styled.button`
 
 export const HamburgerMenu = styled(GiHamburgerMenu)`
   display: none;
-  color: #005db5;
+  color: var(--blue);
   margin-right: 3.9vw;
   font-size: 2.6vw;
 
@@ -126,7 +126,7 @@ export const Close = styled(IoClose)`
   top: 3px;
   right: 3.4vw;
   display: none;
-  color: #005db5;
+  color: var(--blue);
   font-size: 3.5vw;
 
   @media (max-width: 900px) {

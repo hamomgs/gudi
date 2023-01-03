@@ -16,7 +16,7 @@ export const Title = styled.h1`
   padding-top: 7.6vw;
   font-size: 3.4vw;
   font-weight: 700;
-  color: #005bd5;
+  color: var(--blue);
   padding-bottom: 1.36vw;
 `
 
@@ -29,14 +29,14 @@ export const Form = styled.form`
 export const Input = styled.input`
   max-width: 25.3vw;
   border-radius: 1.95vw;
-  border: solid 3px transparent;
+  border: solid 2px transparent;
   padding: 0.87vw 1.95vw;
   font-weight: 400;
   font-size: 0.97vw;
   transition: 0.2s ease-in-out;
 
   &:focus {
-    border-color: #005bd5;
+    border-color: var(--blue);
   }
 `
 
@@ -51,12 +51,12 @@ export const Button = styled.button`
   font-size: 0.97vw;
   text-transform: uppercase;
   cursor: pointer;
-  background-color: #005bd5;
+  background-color: var(--blue);
   transition: 0.3s ease-in-out;
 
   &:hover {
-    color: #005bd5;
-    border-color: #005bd5;
+    color: var(--blue);
+    border-color: var(--blue);
     background-color: #fff;
   }
 `

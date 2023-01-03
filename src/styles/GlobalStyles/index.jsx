@@ -32,6 +32,14 @@ export default createGlobalStyle`
     src: url(${boldFont});
   }
 
+  :root {
+    --blue: #005bd5;
+    --dark-blue: #002e6b;
+    --light-gray: #eee;
+    --gray: #afb3b8;
+    --dark-gray: #8b8b8b;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -52,6 +60,7 @@ export default createGlobalStyle`
     width: 0.6vw;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: #005bd5;
+    border-radius: 50px 0 0 50px;
+    background-color: var(--blue);
   }
 `

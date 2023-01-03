@@ -9,7 +9,7 @@ export const ExperiencesSection = styled.section`
 export const LittleTitle = styled.h3`
   font-family: 'Argentum Medium';
   font-size: 1.46vw;
-  color: #8B8B8B;
+  color: var(--dark-gray);
   padding-top: 7.61vw;
 `
 
@@ -18,7 +18,7 @@ export const Title = styled.h2`
   font-family: 'Argentum Bold';
   font-size: 3.22vw;
   text-align: center;
-  color: #8B8B8B;
+  color: var(--dark-gray);
   padding-bottom: 4.29vw;
 `
 
