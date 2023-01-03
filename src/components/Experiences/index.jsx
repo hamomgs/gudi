@@ -28,28 +28,28 @@ export default function Experiences() {
 
       <S.CardsContainer>
         <S.Card bgColor='var(--light-gray)'>
-          <S.CardIcon src={route} alt='Icone de rota.' width='5.86vw' />
+          <S.CardIcon src={route} alt='Icone de rota.' width='5.86vw' respWidth='13.72vw' />
           <S.CardDescription color='var(--blue)'>
             O melhor do Brasil
           </S.CardDescription>
         </S.Card>
 
         <S.Card bgColor='var(--blue)'>
-          <S.CardIcon src={road} alt='Icone de estrada.' width='6.07vw' />
+          <S.CardIcon src={road} alt='Icone de estrada.' width='6.07vw' respWidth='14.14vw' />
           <S.CardDescription color='#fff'>
             Cidades mais frequentadas
           </S.CardDescription>
         </S.Card>
 
         <S.Card bgColor='var(--light-gray)'>
-          <S.CardIcon src={coconut} alt='Icone de coco verde.' width='4.46vw' />
+          <S.CardIcon src={coconut} alt='Icone de coco verde.' width='4.46vw' respWidth='10.92vw' />
           <S.CardDescription color='var(--blue)'>
             Pontos turísticos
           </S.CardDescription>
         </S.Card>
 
         <S.Card bgColor='var(--blue)'>
-          <S.CardIcon src={menu} alt='Icone de cardamio.' width='5.76vw' />
+          <S.CardIcon src={menu} alt='Icone de cardamio.' width='5.76vw' respWidth='13.52vw' />
           <S.CardDescription color='#fff'>
             Restaurantes
           </S.CardDescription>
