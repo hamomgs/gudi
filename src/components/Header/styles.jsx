@@ -7,14 +7,23 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   height: 4.3vw;
+
+  @media (max-width: 900px) {
+    height: 8vw;
+  }
+
+  @media (max-width: 550px) {
+    height: 20vw;
+  }
 `
 
 export const OutsideClose = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
+  z-index: 2;
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 101vh;
   background-color: rgba(0, 0, 0, 0.8);
 
   @media (max-width: 900px) {
@@ -25,6 +34,14 @@ export const OutsideClose = styled.div`
 export const LogoContainer = styled.figure`
   height: 2.25vw;
   padding-left: 4.88vw;
+
+  @media (max-width: 900px) {
+    height: 4.25vw;
+  }
+
+  @media (max-width: 550px) {
+    height: 9.25vw;
+  }
 
   img {
     height: 100%;
@@ -40,7 +57,7 @@ export const Container = styled.div`
   @media (max-width: 900px) {
     position: fixed;
     top: 0;
-    right: ${({ isOpen }) => isOpen ? '0vw' : '-30vw'};
+    right: ${({ isOpen }) => isOpen ? '0vw' : '-50vw'};
     z-index: 2;
     flex-direction: column;
     align-items: center;
@@ -48,6 +65,11 @@ export const Container = styled.div`
     height: 100vh;
     padding: 90px 0 0 0;
     background-color: #fff;
+  }
+
+  @media (max-width: 550px) {
+    width: 50vw;
+    gap: 10vh;
   }
 `
 
@@ -59,6 +81,10 @@ export const NavItems = styled.ul`
 
   @media (max-width: 900px) {
     flex-direction: column;
+  }
+
+  @media (max-width: 550px) {
+    gap: 3vh;
   }
 `
 
@@ -80,6 +106,10 @@ export const NavItem = styled.li`
 
   @media (max-width: 900px) {
     font-size: 2vw;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 5.2vw;
   }
 `
 
@@ -108,28 +138,44 @@ export const Button = styled.button`
     font-size: 1.5vw;
     border-radius: 2vw;
   }
+
+  @media (max-width: 550px) {
+    width: 38vw;
+    height: 9.6vw;
+    font-size: 4.2vw;
+    border-radius: 5vw;
+  }
 `
 
 export const HamburgerMenu = styled(GiHamburgerMenu)`
   display: none;
   color: var(--blue);
   margin-right: 3.9vw;
-  font-size: 2.6vw;
+  font-size: 4vw;
 
   @media (max-width: 900px) {
     display: initial;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 9vw;
   }
 `
 
 export const Close = styled(IoClose)`
   position: absolute;
-  top: 3px;
-  right: 3.4vw;
+  top: 1.1vw;
+  right: 3.2vw;
   display: none;
   color: var(--blue);
-  font-size: 3.5vw;
+  font-size: 5.5vw;
 
   @media (max-width: 900px) {
     display: initial;
+  }
+
+  @media (max-width: 550px) {
+    top: 4vw;
+    font-size: 10.5vw;
   }
 `

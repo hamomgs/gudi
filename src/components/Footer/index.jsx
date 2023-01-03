@@ -9,16 +9,16 @@ export default function Footer() {
         <S.Logo src={logo} alt='Logo Gudi, O bom da vida é viver.' />
         <S.LinksContainer>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Sobre nós'>Sobre nós</a>
+            <a href='##' title='Sobre nós'>Sobre nós</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Mural de memórias'>Mural de memórias</a>
+            <a href='##' title='Mural de memórias'>Mural de memórias</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Eventos Gudi'>Eventos Gudi</a>
+            <a href='##' title='Eventos Gudi'>Eventos Gudi</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Nosso blog'>Nosso blog</a>
+            <a href='##' title='Nosso blog'>Nosso blog</a>
           </li>
         </S.LinksContainer>
       </S.Container>
@@ -27,16 +27,16 @@ export default function Footer() {
         <S.Title>Contato</S.Title>
         <S.LinksContainer>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Chat Virtual'>Chat Virtual</a>
+            <a href='##' title='Chat Virtual'>Chat Virtual</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='SAC Online'>SAC Online</a>
+            <a href='##' title='SAC Online'>SAC Online</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Ouvidoria'>Ouvidoria</a>
+            <a href='##' title='Ouvidoria'>Ouvidoria</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='FAQ'>FAQ</a>
+            <a href='##' title='FAQ'>FAQ</a>
           </li>
         </S.LinksContainer>
       </S.Container>
@@ -45,16 +45,16 @@ export default function Footer() {
         <S.Title>Benefícios</S.Title>
         <S.LinksContainer>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Conta digital Gudi'>Conta digital Gudi</a>
+            <a href='##' title='Conta digital Gudi'>Conta digital Gudi</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Viaje com Milhas'>Viaje com Milhas</a>
+            <a href='##' title='Viaje com Milhas'>Viaje com Milhas</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='C6 Átomos'>C6 Átomos</a>
+            <a href='##' title='C6 Átomos'>C6 Átomos</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='ID Jovem'>ID Jovem</a>
+            <a href='##' title='ID Jovem'>ID Jovem</a>
           </li>
         </S.LinksContainer>
       </S.Container>
@@ -63,16 +63,16 @@ export default function Footer() {
         <S.Title>Lugares</S.Title>
         <S.LinksContainer>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='O melhor do Brasil'>O melhor do Brasil</a>
+            <a href='##' title='O melhor do Brasil'>O melhor do Brasil</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Cidades frequentes'>Cidades frequentes</a>
+            <a href='##' title='Cidades frequentes'>Cidades frequentes</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Pontos turísticos'>Pontos turísticos</a>
+            <a href='##' title='Pontos turísticos'>Pontos turísticos</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Restaurantes'>Restaurantes</a>
+            <a href='##' title='Restaurantes'>Restaurantes</a>
           </li>
         </S.LinksContainer>
       </S.Container>
@@ -81,16 +81,16 @@ export default function Footer() {
         <S.Title>Curiosidades</S.Title>
         <S.LinksContainer>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Cultura e tradições'>Cultura e tradições</a>
+            <a href='##' title='Cultura e tradições'>Cultura e tradições</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Pratos típicos'>Pratos típicos</a>
+            <a href='##' title='Pratos típicos'>Pratos típicos</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Mitos brasileiros'>Mitos brasileiros</a>
+            <a href='##' title='Mitos brasileiros'>Mitos brasileiros</a>
           </li>
           <li>
-            <a href='https://gudi-hamomgs.vercel.app/' title='Carnaval'>Carnaval</a>
+            <a href='##' title='Carnaval'>Carnaval</a>
           </li>
         </S.LinksContainer>
       </S.Container>
