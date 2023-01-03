@@ -13,8 +13,8 @@ export const LittleTitle = styled.h3`
   padding-top: 7.61vw;
 
   @media (max-width: 600px) {
-    font-size: 2.92vw;
-    padding-top: 15vw;
+    font-size: 3.92vw;
+    padding-top: 18vw;
   }
 `
 
@@ -27,8 +27,9 @@ export const Title = styled.h2`
   padding-bottom: 4.29vw;
 
   @media (max-width: 600px) {
-    max-width: 52vw;
-    font-size: 6.44vw;
+    max-width: 72vw;
+    font-size: 8.44vw;
+    padding-bottom: 9vw;
   }
 `
 
@@ -44,6 +45,7 @@ export const PhotosContainer = styled.div`
   @media (max-width: 600px) {
     gap: 2.34vw;
     width: 90vw;
+    padding-bottom: 9vw;
   }
 `
 
