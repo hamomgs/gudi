@@ -11,44 +11,46 @@ import AM from '../../assets/img/amazonia.png'
 export default function TravelSection() {
   return (
     <S.TravelSection>
-      <S.Picture img={firstImg}></S.Picture>
-      <S.AboutBox>
-        <S.Container>
-          <S.LittleTitle><S.Line></S.Line> Viagens Nacionais</S.LittleTitle>
-          <S.Title width='90%'>O clima perfeito, no lugar perfeito</S.Title>
-          <S.Description>
-            Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos
-            não tem preço.
-          </S.Description>
-          <S.Button>Agendar</S.Button>
-        </S.Container>
-      </S.AboutBox>
-      
-      <S.AboutBox isWhite='true'>
-        <S.Container>
-          <S.LittleTitle><S.Line></S.Line> Viagens Nacionais</S.LittleTitle>
-          <S.Title width='90%'>Curta uma nova vibe entre amigos</S.Title>
-          <S.Description>
-            Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos.
-            Conheça nossos <span>Planos Multi</span>.
-          </S.Description>
-          <S.Button>Agendar</S.Button>
-        </S.Container>
-      </S.AboutBox>
-      <S.Picture img={secondImg}></S.Picture>
+      <S.Container>
+        <S.Picture img={firstImg}></S.Picture>
+        <S.AboutBox>
+          <S.InfoBox>
+            <S.LittleTitle><S.Line></S.Line> Viagens Nacionais</S.LittleTitle>
+            <S.Title width='90%'>O clima perfeito, no lugar perfeito</S.Title>
+            <S.Description>
+              Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos
+              não tem preço.
+            </S.Description>
+            <S.Button>Agendar</S.Button>
+          </S.InfoBox>
+        </S.AboutBox>
+        
+        <S.AboutBox isWhite='true'>
+          <S.InfoBox>
+            <S.LittleTitle><S.Line></S.Line> Viagens Nacionais</S.LittleTitle>
+            <S.Title width='90%'>Curta uma nova vibe entre amigos</S.Title>
+            <S.Description>
+              Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos.
+              Conheça nossos <span>Planos Multi</span>.
+            </S.Description>
+            <S.Button>Agendar</S.Button>
+          </S.InfoBox>
+        </S.AboutBox>
+        <S.Picture img={secondImg}></S.Picture>
 
-      <S.Picture img={thirdImg}></S.Picture>
-      <S.AboutBox>
-        <S.Container>
-          <S.LittleTitle><S.Line></S.Line> Viagens Nacionais</S.LittleTitle>
-          <S.Title fontSize='3.35vw'>Algumas experiências são inexplicáveis</S.Title>
-          <S.Description>
-            Conheça as fontes termais de <span>Caldas Novas, Goiás</span>. Águas quentes,
-            num clima sereno, relaxante e natural.
-          </S.Description>
-          <S.Button>Agendar</S.Button>
-        </S.Container>
-      </S.AboutBox>
+        <S.Picture img={thirdImg}></S.Picture>
+        <S.AboutBox>
+          <S.InfoBox>
+            <S.LittleTitle><S.Line></S.Line> Viagens Nacionais</S.LittleTitle>
+            <S.Title fontSize='3.35vw' fontSizeR='6.4vw'>Algumas experiências são inexplicáveis</S.Title>
+            <S.Description>
+              Conheça as fontes termais de <span>Caldas Novas, Goiás</span>. Águas quentes,
+              num clima sereno, relaxante e natural.
+            </S.Description>
+            <S.Button>Agendar</S.Button>
+          </S.InfoBox>
+        </S.AboutBox>
+      </S.Container>
 
       <S.StatesContainer>
         <S.StateBox img={RJ}>

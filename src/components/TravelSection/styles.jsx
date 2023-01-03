@@ -1,9 +1,40 @@
 import styled from 'styled-components'
 
 export const TravelSection = styled.section`
+  
+`
+
+export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+
+    &>div:nth-child(1) {
+      order: 2;
+    }
+
+    &>div:nth-child(2) {
+      order: 1;
+    }
+
+    &>div:nth-child(3) {
+      order: 3;
+    }
+
+    &>div:nth-child(4) {
+      order: 4;
+    }
+
+    &>div:nth-child(5) {
+      order: 6;
+    }
+
+    &>div:nth-child(6) {
+      order: 5;
+    }
+  }
 `
 
 export const AboutBox = styled.div`
@@ -29,11 +60,21 @@ export const AboutBox = styled.div`
       background-color: ${({ isWhite }) => isWhite ? 'var(--blue)' : '#fff'};
     }
   }
+
+  @media (max-width: 600px) {
+    width: 100vw;
+    height: 63vw;
+  }
 `
 
-export const Container = styled.div`
+export const InfoBox = styled.div`
   width: 40.82vw;
   height: 19.53vw;
+
+  @media (max-width: 600px) {
+    width: 80vw;
+    height: 40vw;
+  }
 `
 
 export const LittleTitle = styled.h4`
@@ -41,16 +82,26 @@ export const LittleTitle = styled.h4`
   align-items: center;
   gap: 1.07vw;
   padding-bottom: 0.78vw;
-  font-weight: 400;
+  font-family: 'Argentum Light';
   font-size: 1vw;
   text-transform: uppercase;
   letter-spacing: 3px;
+
+  @media (max-width: 600px) {
+    gap: 2.14vw;
+    font-size: 2vw;
+    padding-bottom: 1.56vw;
+  }
 `
 
 export const Line = styled.span`
   position: relative;
   width: 3.6vw;
   height: 2px;
+
+  @media (max-width: 600px) {
+    width: 7.2vw;
+  }
 `
 
 export const Title = styled.h2`
@@ -59,6 +110,12 @@ export const Title = styled.h2`
   font-family: 'Argentum Black';
   font-size: ${({ fontSize }) => fontSize ? fontSize : '3.41vw'};
   letter-spacing: 0.73px;
+
+  @media (max-width: 600px) {
+    padding-bottom: 2vw;
+    font-size: 6.82vw;
+    font-size: ${({ fontSizeR }) => fontSizeR ? fontSizeR : '6.8vw'};
+  }
 `
 
 export const Description = styled.p`
@@ -69,6 +126,11 @@ export const Description = styled.p`
   span {
     font-family: 'Argentum Bold';
     background-color: transparent;
+  }
+
+  @media (max-width: 600px) {
+    padding-bottom: 4.88vw;
+    font-size: 3.5vw;
   }
 `
 
@@ -82,6 +144,13 @@ export const Button = styled.button`
   text-transform: uppercase;
   transition: 0.3s ease;
   background-color: transparent;
+
+  @media (max-width: 600px) {
+    width: 22vw;
+    height: 5.2vw;
+    border-radius: 3vw;
+    font-size: 2vw;
+  }
 `
 
 export const Picture = styled.div`
@@ -90,10 +159,19 @@ export const Picture = styled.div`
   background-position: center;
   width: 49.7vw;
   height: 31.5vw;
+
+  @media (max-width: 600px) {
+    width: 100vw;
+    height: 63vw;
+  }
 `
 
 export const StatesContainer = styled.div`
   display: flex;
+
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
 `
 
 export const StateBox = styled.div`
@@ -105,6 +183,11 @@ export const StateBox = styled.div`
   justify-content: center;
   width: 24.85vw;
   height: 19.72vw;
+
+  @media (max-width: 900px) {
+    width: 50vw;
+    height: 40vw;
+  }
 `
 
 export const StateBtn = styled.button`
@@ -124,5 +207,12 @@ export const StateBtn = styled.button`
 
   &:hover {
     background-color: rgba(18, 29, 18, 0.8);
+  }
+
+  @media (max-width: 900px) {
+    width: 37vw;
+    height: 5.7vw;
+    border-radius: 3vw;
+    font-size: 2vw;
   }
 `
