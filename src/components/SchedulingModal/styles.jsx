@@ -20,13 +20,14 @@ export const ModalContainer = styled.div`
   justify-content: center;
   gap: 3vw;
   width: ${({ finalMessage }) => finalMessage ? '50%' : '90%'};
-  height: 90%;
+  height: 80%;
   padding: ${({ finalMessage }) => finalMessage && '1vw 5vw'};
   border-radius: 15px;
   background-color: #fff;
 
   @media (max-width: 550px) {
     width: 90%;
+    height: ${({ finalMessage }) => finalMessage && '60%'};
   }
 `
 
