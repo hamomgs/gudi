@@ -9,7 +9,7 @@ export default function ContactUs() {
         <S.Input type='email' placeholder='Diga o seu melhor email' />
         <S.Input type='text' placeholder='Assunto' />
         <S.Textarea placeholder='Escreva sua mensagem'></S.Textarea>
-        <S.SendBtn>Enviar</S.SendBtn>
+        <S.SendBtn title='Enviar'>Enviar</S.SendBtn>
       </S.ContactForm>
     </S.ContactUsSection>
   )

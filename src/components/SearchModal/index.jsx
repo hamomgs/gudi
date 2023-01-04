@@ -14,8 +14,8 @@ export default function SearchModal({ setIsOpen, state, setSearchModalOpen }) {
 
         <S.Message>As melhores passagens para {state} foram encontradas! Deseja agendar sua viagem?</S.Message>
         <S.BtnContainer>
-          <S.CancelBtn onClick={() => setSearchModalOpen(false)}>Cancelar</S.CancelBtn>
-          <S.ConfirmBtn onClick={() => {setSearchModalOpen(false); setIsOpen(true);}}>Agendar</S.ConfirmBtn>
+          <S.CancelBtn onClick={() => setSearchModalOpen(false)} title='Cancelar'>Cancelar</S.CancelBtn>
+          <S.ConfirmBtn onClick={() => {setSearchModalOpen(false); setIsOpen(true);}} title='Agendar'>Agendar</S.ConfirmBtn>
         </S.BtnContainer>
       </S.Container>
     </S.ModalContainer>

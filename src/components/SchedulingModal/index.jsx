@@ -14,7 +14,7 @@ export default function SchedulingModal({ setIsOpen, setSelectedState }) {
   return (
     <S.OutsideContainer id='modal' onClick={e => handleOutSideClick(e)}>
       <S.ModalContainer finalMessage={finalMessage}>
-      <S.CloseBtn onClick={() => setIsOpen(false)} />
+      <S.CloseBtn onClick={() => setIsOpen(false)} title='Fechar' />
       {!finalMessage &&
         <>
           <S.Title>Agendamento</S.Title>

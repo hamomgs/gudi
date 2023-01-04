@@ -16,7 +16,7 @@ export default function Search({ selectedState, setSelectedState, setSearchModal
         <S.Container>
           <SelectState setSelectedState={setSelectedState} />
         </S.Container>
-        <S.Button onClick={() => openModal()}>Buscar</S.Button>
+        <S.Button onClick={() => openModal()} title='Buscar'>Buscar</S.Button>
       </S.Form>
    </S.SearchSection>
   )

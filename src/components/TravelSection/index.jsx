@@ -21,7 +21,7 @@ export default function TravelSection({ setIsOpen }) {
               Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos
               não tem preço.
             </S.Description>
-            <S.Button onClick={() => setIsOpen(true)}>Agendar</S.Button>
+            <S.Button onClick={() => setIsOpen(true)} title='Agendar'>Agendar</S.Button>
           </S.InfoBox>
         </S.AboutBox>
         
@@ -33,7 +33,7 @@ export default function TravelSection({ setIsOpen }) {
               Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos.
               Conheça nossos <span>Planos Multi</span>.
             </S.Description>
-            <S.Button onClick={() => setIsOpen(true)}>Agendar</S.Button>
+            <S.Button onClick={() => setIsOpen(true)} title='Agendar'>Agendar</S.Button>
           </S.InfoBox>
         </S.AboutBox>
         <S.Picture img={secondImg}></S.Picture>
@@ -47,7 +47,7 @@ export default function TravelSection({ setIsOpen }) {
               Conheça as fontes termais de <span>Caldas Novas, Goiás</span>. Águas quentes,
               num clima sereno, relaxante e natural.
             </S.Description>
-            <S.Button onClick={() => setIsOpen(true)}>Agendar</S.Button>
+            <S.Button onClick={() => setIsOpen(true)} title='Agendar'>Agendar</S.Button>
           </S.InfoBox>
         </S.AboutBox>
       </S.Container>

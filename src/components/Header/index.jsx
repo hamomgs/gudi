@@ -22,7 +22,7 @@ export default function Header({ setOpen }) {
             <S.NavItem>Contato</S.NavItem>
           </S.NavItems>
         </nav>
-        <S.Button onClick={() => setOpen(true)}>AGENDAR</S.Button>
+        <S.Button onClick={() => setOpen(true)} title='Agendar'>AGENDAR</S.Button>
       </S.Container>
     </S.Header>
   )
