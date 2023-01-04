@@ -9,7 +9,7 @@ import TravelSection from '../TravelSection/index.jsx'
 export default function Main({ isOpen, setIsOpen }) {
   const [selectedState, setSelectedState] = useState('')
   
-  const [isSearchModalOpen, setSearchModalOpen] = useState(true)
+  const [isSearchModalOpen, setSearchModalOpen] = useState(false)
 
   useEffect(() => {
     if (isOpen) {
