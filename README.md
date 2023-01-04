@@ -10,7 +10,7 @@
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen" />
 </p>
 
-<h4 align="center">🚧 Status: Em construção... 🚧</h4>
+<h4 align="center">Status: Concluído</h4>
 
 ## 💻 Sobre o Projeto
 
