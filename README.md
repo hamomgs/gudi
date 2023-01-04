@@ -21,13 +21,13 @@ Você pode ver a demo do projeto clicando [aqui](https://gudi-hamomgs.vercel.app
 
 Veja o modelo de design do site clicando [aqui](https://xd.adobe.com/view/7685b23a-03a3-4d0c-a563-0855e94e046b-23d6).
 
-<!-- ### Mobile
+### Mobile
 
-<img src="" alt="mobile version" width="300px" /> -->
+<img src="https://user-images.githubusercontent.com/88857655/210650573-57e07b50-b0eb-40aa-b3a9-a913d4e1e257.png" alt="mobile version" width="300px" /> 
 
 ### Web
 
-<img src="https://user-images.githubusercontent.com/88857655/210284124-95a83ec6-59dc-456e-acb1-592e9cdeb151.png" alt="web version" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/88857655/210650796-be01aa98-5b96-4cb6-89db-e90ab92abe9b.png" alt="web version" width="800px" /> 
 
 ## ✅ Checklist
 
@@ -35,8 +35,9 @@ Veja o modelo de design do site clicando [aqui](https://xd.adobe.com/view/7685b2
 - [X] Cards de viagem
 - [X] Mural de experiências 
 - [X] Fale conosco
-- [ ] Footer
-- [ ] Responsivo (mobile)
+- [X] Footer
+- [X] Modal de agendamento
+- [X] Responsivo (mobile)
 
 ## 🚀 Como executar o projeto
 
@@ -60,10 +61,15 @@ $ npm start
 
 ## 🛠 Tecnologias
 
-- [JavaScript](https://devdocs.io/javascript/)
-- [React](https://pt-br.reactjs.org/)
+- [ReactJS](https://pt-br.reactjs.org/)
 - [Styled-Components](https://styled-components.com)
 - [React Icons](https://react-icons.github.io/react-icons)
+- [React Select](https://react-select.com/)
+- [Axios](https://www.npmjs.com/package/axios)
+
+Api
+
+- [Localidades IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
 
 ## 📝 Licença
 
