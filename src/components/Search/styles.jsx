@@ -51,6 +51,18 @@ export const Form = styled.form`
   }
 `
 
+export const Container = styled.div`
+  width: 25.3vw;
+
+  @media (max-width: 900px) {
+    width: 38vw;
+  }
+
+  @media (max-width: 550px) {
+    width: 51vw;
+  }
+`
+
 export const Input = styled.input`
   max-width: 25.3vw;
   border-radius: 1.95vw;

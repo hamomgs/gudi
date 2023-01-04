@@ -152,6 +152,7 @@ export const HamburgerMenu = styled(GiHamburgerMenu)`
   color: var(--blue);
   margin-right: 3.9vw;
   font-size: 4vw;
+  cursor: pointer;
 
   @media (max-width: 900px) {
     display: initial;
@@ -169,6 +170,7 @@ export const Close = styled(IoClose)`
   display: none;
   color: var(--blue);
   font-size: 5.5vw;
+  cursor: pointer;
 
   @media (max-width: 900px) {
     display: initial;

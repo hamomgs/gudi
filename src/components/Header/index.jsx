@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import * as S from './styles.jsx'
 import logo from '../../assets/img/logo.png'
 
-export default function Header() {
+export default function Header({ setOpen }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -22,7 +22,7 @@ export default function Header() {
             <S.NavItem>Contato</S.NavItem>
           </S.NavItems>
         </nav>
-        <S.Button>AGENDAR</S.Button>
+        <S.Button onClick={() => setOpen(true)}>AGENDAR</S.Button>
       </S.Container>
     </S.Header>
   )

@@ -8,7 +8,7 @@ import RO from '../../assets/img/rio-das-ostras.png'
 import CN from '../../assets/img/caldas-novas.png'
 import AM from '../../assets/img/amazonia.png'
 
-export default function TravelSection() {
+export default function TravelSection({ setIsOpen }) {
   return (
     <S.TravelSection>
       <S.Container>
@@ -21,7 +21,7 @@ export default function TravelSection() {
               Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos
               não tem preço.
             </S.Description>
-            <S.Button>Agendar</S.Button>
+            <S.Button onClick={() => setIsOpen(true)}>Agendar</S.Button>
           </S.InfoBox>
         </S.AboutBox>
         
@@ -33,7 +33,7 @@ export default function TravelSection() {
               Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos.
               Conheça nossos <span>Planos Multi</span>.
             </S.Description>
-            <S.Button>Agendar</S.Button>
+            <S.Button onClick={() => setIsOpen(true)}>Agendar</S.Button>
           </S.InfoBox>
         </S.AboutBox>
         <S.Picture img={secondImg}></S.Picture>
@@ -47,7 +47,7 @@ export default function TravelSection() {
               Conheça as fontes termais de <span>Caldas Novas, Goiás</span>. Águas quentes,
               num clima sereno, relaxante e natural.
             </S.Description>
-            <S.Button>Agendar</S.Button>
+            <S.Button onClick={() => setIsOpen(true)}>Agendar</S.Button>
           </S.InfoBox>
         </S.AboutBox>
       </S.Container>
